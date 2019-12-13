@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+/*TRBL Top Right Bottom Left: Order of Measure */
+nav ul li {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff
+}
+
+@media screen and (max-width: 479px) {
+    nav ul li {
+        padding: 0 5px 0 5px;
+    }
+}
+
+nav ul li a:hover {
+    color: #1d1d1d;
+}
+
+header {
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto 30px auto;
+    background-color: #ff0000;
+    padding: 20px 20px 20px 20px;
+}
+
+h1 {
+    font-family: 'Megrim';
+    color: white;
+}
+
+h2 a:hover {
+    color: #1d1d1d;
+}
+
+h3 {
+    font-size: 2em;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 479px) {
+    h3 {
+        font-size: 25px;
+    }
+}
+
+.maintitle {
+    font-size: 5em;
+    color: black;
+}
+
+@media screen and (max-width: 479px) {
+    .maintitle {
+        font-size: 50px;
+        color: white;
+    }
+}
+
+.indexintro {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-image: url('Skull.png');
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-position: center;
+    background-color: ldldld;
+    height: 400px;
+    max-width: 700px;
+
+
+}
+
+/*HomePage*/
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    background-color: #1d1d1d;
+}
+
+.homepageTitle {
+    width: 30%;
+    margin: 50px auto 10px auto;
+    padding: 10px 0 10px 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    background-color: #ff0000;
+}
+
+.homepageJournal {
+    margin: 10px auto 80px auto;
+    width: 90%;
+    max-width: 700px;
+    font-size: 17px;
+    text-align: left;
+}
+
+p {
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 120%;
+}
+
+img {
+    float: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.image {
+    height: 200px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px;
+    margin: 10px 20px;
+}
+
+.imagegames {
+    height: 200px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.imageart {
+    height: 400px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.wrapper {
+    background: white;
+    margin: 10px auto 80px auto;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: red;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    max-width: 700px;
+}
+
+.scrollable {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 230px;
+    white-space: nowrap;
+}
+
+.scrollable2 {
+    overflow-x: visible;
+    overflow-y: scroll;
+    height: 230px;
+    max-width: 700px;
+
+}
+
+.latestjournals {}
+
+.verticalcenter {
+    vertical-align: middle;
+}
+
+.gridart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+
+}
+
+.gridart p {
+    text-align: center;
+}
+
+.gamepagecontainer {
+    justify-items: center;
+    display: grid;
+    padding: 0 10% 0 10%;
+    margin: auto;
+    grid-template-columns: 20% 50%;
+    max-width: 900px;
+    grid-column-gap: 70px;
+    grid-template-rows: auto;
+    grid-row-gap: 20px;
+    align-items: center;
+}
+
+.gamepagecontainer p {
+    text-align: left;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    font-size: 150%;
+}
+
+.journalpage {
+    font-size: 19px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    max-width: 700px;
+}
+
+.inputtext {
+    color: red;
+    background-color: red;
+    margin: 30px auto;
+
+}
+
+input[type=text],
+select,
+textarea {
+    color: black;
+    width: 90%;
+    padding: 5px;
+    margin: auto 5%;
+    border: 1px solid #ccc;
+    max-width: 700px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #1d1d1d;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50px;
+    height: 20px;
+}
+
+@media screen and (max-width: 479px) {
+    .gamepagecontainer p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+
+}
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
