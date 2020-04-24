@@ -30,6 +30,11 @@ nav ul li a:hover {
     color: #1d1d1d;
 }
 
+.headertext {
+    font-size: 1.3em;
+    padding: 5px 15px;
+}
+
 header {
     text-align: center;
     color: #ffffff;
@@ -41,6 +46,10 @@ header {
 h1 {
     font-family: 'Megrim';
     color: white;
+}
+
+h2 a {
+    text-decoration: none;
 }
 
 h2 a:hover {
@@ -61,8 +70,10 @@ h3 {
 }
 
 .maintitle {
+    /* The main title: The Sanctuary */
     font-size: 5em;
-    color: black;
+    color: white;
+    padding: auto;
 }
 
 @media screen and (max-width: 479px) {
@@ -87,7 +98,7 @@ h3 {
 
 }
 
-/*HomePage*/
+/* HomePage */
 body {
     margin: 0 auto;
     padding: 0 auto;
@@ -156,7 +167,6 @@ img {
     border-width: 1px;
     padding: 5px;
     margin: 10px 20px;
-    text-align: center;
 }
 
 .wrapper {
@@ -168,8 +178,8 @@ img {
     padding: 10px 0px 10px 0px;
     text-align: center;
     position: relative;
-    width: 90%;
-    max-width: 700px;
+    width: 80%;
+    max-width: 1300px;
 }
 
 .scrollable {
@@ -177,6 +187,14 @@ img {
     overflow-y: hidden;
     height: 230px;
     white-space: nowrap;
+}
+
+.scrollableart {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 450px;
+    white-space: nowrap;
+
 }
 
 .scrollable2 {
@@ -195,7 +213,7 @@ img {
 
 .gridart {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
 
@@ -224,6 +242,19 @@ img {
     top: 50%;
     left: 50%;
     font-size: 150%;
+}
+
+.artpagecontainer {
+    justify-items: center;
+    display: grid;
+    padding: 0 10% 0 10%;
+    margin: auto;
+    grid-template-columns: 20% 50%;
+    max-width: 80%;
+    grid-column-gap: 80px;
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+    align-items: center;
 }
 
 .journalpage {
