@@ -205,7 +205,6 @@ img {
 
 }
 
-.latestjournals {}
 
 .verticalcenter {
     vertical-align: middle;
@@ -216,6 +215,8 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
+    padding: auto;
+    margin: auto;
 
 }
 
@@ -310,3 +311,4 @@ input[type=submit] {
 
 @media screen and (max-width: 479px) {
     /* start of phone styles */
+}
