@@ -34,3 +34,6 @@ Got rid of the add-ons to the numbers in the change-log and completed the site f
 Current
 October 11, 2021
 A summary of all previous changelog entries will be made, and then I will make proper updates in design and function of my github site. 
+
+September 8, 2022
+Removing unnecessary files: about.html, gamesone.html, games.html, gamestwo.html, jounral.html, test-ar-target-color.html, sketchContainer.js, ar-script.js, and test-ar-targets.html, media folder, ar-targets folder, art folder, and several others.
